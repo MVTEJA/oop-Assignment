@@ -1,0 +1,40 @@
+1)  A parameter is the variable that is listed inside the parantheses in the function definition .
+whereas an argument is the value that are sent to the function when it is called .
+ for example :  def tellname(name):
+                    print(name)
+                tellname("vishnu")
+                
+ here the parameter is name and the tellname function expects an argument name which is vishnu here
+ 
+ 
+2) If we totally omit the return statement then python will return a default value.
+
+3) Keyword arguments are values that , when passed into a function are identifiable by specific parametr names .
+   If we donot know the order of the parameters we can use this .
+   for example:  def fun(name , age):
+                     print("hello" , name)
+                     print("your age is " , age)
+                 
+    we can call function like this fun(age = 19 , name = "Vishnu")
+
+4) We can make parameter optional as
+   
+   def tellname(name = "vishnu"):
+       print("I am " + name)
+   If the argument is passed then it will be printed otherwise the default value is printed .
+   
+5) If the number of argumnets is unknown we can add a * before the parameter name , this way the function will receive a tuple of arguments .
+
+6) If we donot know how many keyword arguments that will be passed into your function we can add ** .
+
+7) If a variable is creates it is only available from inside the region it is created .
+   If a variable created inside a function it belongs to the local scope of that function , and can be used inside that function only .
+
+8) Local variables are only accessible within the function whereas a global variable can be accessible within any function 
+   because it is declared globally .
+   
+9) a) Global variables can be accessed from multiple sections of a program and hence results in bugs .
+
+   b) If we want to debug the code it is difficult to find out the current value of the global variable and
+      we have search through multiple functions or modules to understand where the globsl variable is used and modified .
+     
