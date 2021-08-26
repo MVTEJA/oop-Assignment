@@ -1,0 +1,33 @@
+1) '/' operator  divides the given numbers and 20//3 gives the floor of the obtained value .
+ so  20/3 gives 6  and 20//3  gives 6 since floor of 6.66666 is 6 .
+ 
+2)  ** is for exponentiation so 25**3  is 25 * 25 * 25  i;e  15625 .
+
+3) K value will be 7 .
+
+4) we can use round() function which takes two parameters i;e  round(number , digits) and round of the number 
+   to given number of digits .
+   for example x = round(9.88564 , 2)  will give 9.89  . 
+
+5) float(1) will return 1.0  .
+
+6) bool("False")  will return True since we are giving a string .
+
+7)  Some false values 
+    a) bool(False)
+    b) bool(None)
+    c) bool(0)
+    d) bool("")
+    e) bool(())
+    f) bool([])
+    g) bool({})
+    
+8)  the resut is False because string is not equal to integer .
+
+9)  the result is true because 'b'  has greater unicode than 'a'  .
+
+10) False  because since or is there even if either of themm is true it is true and since not is there it will become false .
+
+11) The expression 15 <= age < 45 will be True if age value is between 15 to 44 . 
+
+12) The range(1 , 10 , 2) means numbers from 1 to 9 with difference of 2 so 1 , 3 , 5 , 7 , 9 .
