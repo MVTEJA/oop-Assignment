@@ -1,0 +1,51 @@
+1. A variable is a memory loacation to store datatypes like integer , float , char , double , list , tuple , strings etc .
+
+2. The four primitive built-in types in python are integers , floats , booleans and strings .
+
+3. To give multi line comments .
+
+4. name[1]  returns 'n' , because the index 1 means that we are accessing second element of the list .
+
+5. name[-2]  implies that second last word from end so it is 'a'  .
+
+6. name[1 : -1]  since -1 is not included we get characters from index 1 to -2   i;e  nand Viha .
+
+7. we can use len(name) to get the length of the string name .
+
+8.  a) To use backslash we can do by \\ .
+    b) To use ' then we can use \'  to get . for example 'It\'s OK' , will give It's OK.
+    c) to get new line use \n .
+    d) to get Tab (more space) we use \t .
+    e) to remove the space that we have given use \b . 
+    f) to get the characters with hex values of the use \x  ,  for example "\x48\x65\x6c\x6c\x6f"  will give all the hexadecimal values of the give hexvalues i;e Hello .
+    g) same way to get the charcters from octal value we use "\integer integer integer" .
+
+9. f strings are used to replace the expression with their values .
+
+10. the title function is used to convert the first character in each word to uppercase and the remaining characters to lowercase in the string and then returns a new string .
+    for example : t = "my name is vishnu teja"  
+                  r = t.title()
+                  print(r)
+                  the result is My Name Is Vishnu Teja . 
+
+11.strip function removes any spaces at the begining or at the end of the string . if we give any characters in the function it will remove the characters in the string .
+   for example : t = "   Assignment   "  , if we give t.strip() , since we haven't given anything it will consider space so the output will be : Assignment .
+                 g = ",,,,rrty...Assignment...tyty"  and give g.strip(",.try") , it will remove all those characters which are given as parameters . so the output will be Assignment .
+so here in the example name.strip() returns Ananda Vihar . 
+
+
+12. find function will give the index of the first character of the wors in the string .
+    for example : t = "Hello everyone Good morning " 
+                  t.find("Good")  will give the index 15 .
+    
+    so here name.find("Vihar") will return 7 . 
+                  
+    and returns -1 if the given string is not found in the string . 
+
+13. The name will be Ananda Viharesort  . 
+
+14 . we can use name.find("Ramana")  if it is there it will return index else it returns -1 .
+
+15. integers , floating point numbers and complex numbers are the three distinct numeric types .
+
+                  
